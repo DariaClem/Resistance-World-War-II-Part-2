@@ -26,7 +26,7 @@ Soon after the arrest of your colleague, you notice that every time you leave ho
 
 > Technical Data
 
-From the keyboard, options (int) will be read in the menu, followed by enter. Depending on the choice made, the user will be able to process a series of objects read earlier. The menu is built in this way, the names being suggestive and supporting the user:
+From the keyboard, options (int) will be read within the menu, followed by _enter_. Depending on the choice made, the user will be able to process a series of objects read earlier. The menu is built in this way, the names being suggestive:
 
 - Human Resources 
   - Weapon Manager
