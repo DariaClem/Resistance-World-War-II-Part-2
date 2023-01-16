@@ -28,19 +28,50 @@ Soon after the arrest of your colleague, you notice that every time you leave ho
 
 From the keyboard, options (int) will be read in the menu, followed by enter. Depending on the choice made, the user will be able to process a series of objects read earlier. The menu is built in this way, the names being suggestive and supporting the user:
 
-Human Resources - Weapon Manager
-- Ammunition Manager
-- Spy
-- Previous page
-Messages - Encrypt Messages - Process all messages
-- Process single message
-- Previous page
-- Decrypt Messages - Process all messages
-- Process single message
-- Previous page
-- Introduce Message
-- Display Messages
+- Human Resources 
+  - Weapon Manager
+  - Ammunition Manager
+  - Spy
+  - Previous page
+                  
+- Messages 
+  - Encrypt Messages 
+    - Process all messages
+    - Process single message
+    - Previous page
+  - Decrypt Messages 
+    - Process all messages
+    - Process single message
+    - Previous page
+  - Introduce Message
+  - Display Messages
+  - Verify Messages 
+    - Verify all messages
+    - Verify single message
+    - Previous page
+  - Previous page
+- Deposit 
+  - Add weapons stock
+  - Display weapons stock
+  - Add ammunition stock
+  - Display ammunition stock
+  - Previous page
+- Close device
+          
+The menu is constructed in such a way that the user cannot perform actions that will generate errors. He is guided through various warnings to follow the natural order of using this program.
 
+The classes used in this program are as follows, suggesting also the inheritance relationships:
+
+- People 
+  - Weapon Manager
+  - Ammunition Manager
+  - Spy
+- Coordinates
+- Attacks
+- Decryption
+- Military Technology 
+  - Weapons
+  - Ammunition
 
 ## Poveste 
 În timpul celui de-al Doilea Război Mondial, în Franța ocupată de trupele germane, francezi de toate vârstele s-au unit pentru a slăbi forțele inamicului, atât prin sabotaj, cât și prin operațiuni militare.
@@ -64,37 +95,45 @@ La scurt timp după arestarea colegului, observi că de fiecare dată când plec
 
 De la tastatură se vor citi, în cadrul meniului, opțiuni (int), urmate de *enter*. În funcție de alegerea făcută, utilizatorul va putea să prelucreze diferit o serie de obiecte citite anterior. Meniul este construit astfel, denumirile fiind sugestive si venind in sprijinul utilizatorului:
 
-- Resurse Umane - Gestionar Arme 
-                - Gestionar Munitie
-                - Spion
-                - Pagina anterioara
-- Mesaje - Criptare Mesaje    - Prelucrare toate mesajele
-                              - Prelucrare mesaj unic
-                              - Pagina anterioara 
-         - Decriptare Mesaje  - Prelucrare toate mesajele
-                              - Prelucrare mesaj unic
-                              - Pagina anterioara
-         - Introducere Mesaj
-         - Afisare Mesaje
-         - Verificare Mesaje  - Verificare toate mesajele
-                              - Verificare mesaj unic
-                              - Pagina anterioara
-         - Pagina anterioara
-- Depozit - Adauga stoc arme
-          - Afisare stocuri arme
-          - Adauga stoc munitie
-          - Afisare stocuri munitie
-          - Pagina anterioara
+- Resurse Umane 
+  - Gestionar Arme 
+  - Gestionar Munitie
+  - Spion
+  - Pagina anterioara
+- Mesaje 
+  - Criptare Mesaje    
+    - Prelucrare toate mesajele
+    - Prelucrare mesaj unic
+    - Pagina anterioara 
+  - Decriptare Mesaje  
+    - Prelucrare toate mesajele
+    - Prelucrare mesaj unic
+    - Pagina anterioara
+  - Introducere Mesaj
+  - Afisare Mesaje
+  - Verificare Mesaje  
+    - Verificare toate mesajele
+    - Verificare mesaj unic
+    - Pagina anterioara
+  - Pagina anterioara
+- Depozit 
+  - Adauga stoc arme
+  - Afisare stocuri arme
+  - Adauga stoc munitie
+  - Afisare stocuri munitie
+  - Pagina anterioara
 - Inchidere dispozitiv
 
 Meniul este construit în așa manieră încât utilizatorul să nu poată realiza acțiuni care să îi genereze erori. El este îndrumat prin diverse avertizări să urmeze ordinea firească de utilizare a acestui program.
 
 Clasele utilizate în acest program sunt următoarele, sugerându-se de asemenea și relațiile de moștenire:
-- Oameni - Gestionar Arme
-         - Gestionar Munitie
-         - Spion
+- Oameni 
+  - Gestionar Arme
+  - Gestionar Munitie
+  - Spion
 - Coordonate
 - Atacuri
 - Decriptare
-- Tehnica Militara - Arme
-                   - Muniție
+- Tehnica Militara 
+  - Arme
+  - Muniție
