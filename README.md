@@ -1,4 +1,46 @@
-# Proiect2_POO
+### Object-oriented programming 🖥️
+# Resistance coordination in the World War II - Part 2
+
+[Română :romania:](#poveste)
+
+[English :eu:](#story)
+
+## Story
+
+During World War II, in occupied France by German forces, French people of all ages united to weaken the enemy's forces, both through sabotage and military operations.
+
+Before the siege of Paris, you studied cryptography and think you could help the Resistance through a hidden but crucial work. On a device obtained from the black market, you want to centralize information about colleagues, attacks, weapons, ammunition, message coordinates or future confrontations, but you also want to be able to check the authenticity of messages received: are they trap messages or are they sent by your people?
+
+> War Journal
+
+- [x] *[First mission](https://github.com/DariaClem/Proiect1_POO)* 
+
+- [ ] Second mission
+
+
+***December 28th, 1942***
+At the end of December, near New Year's, an important member of the Resistance is captured by the Nazis. Since he contributed from the "behind the curtain", his arrest becomes even more suspicious. Who could have denounced him if not someone from the Resistance?
+
+***January 4th, 1943***
+Soon after the arrest of your colleague, you notice that every time you leave home you are followed from a distance. Also, this morning you found a letter on the steps of your house that warns you that you are closely watched by the Nazis. You decide to leave the capital for a while, to escape from the enemy's observation. Before leaving, you explain to a member of the Resistance how to use the device.
+
+> Technical Data
+
+From the keyboard, options (int) will be read in the menu, followed by enter. Depending on the choice made, the user will be able to process a series of objects read earlier. The menu is built in this way, the names being suggestive and supporting the user:
+
+Human Resources - Weapon Manager
+- Ammunition Manager
+- Spy
+- Previous page
+Messages - Encrypt Messages - Process all messages
+- Process single message
+- Previous page
+- Decrypt Messages - Process all messages
+- Process single message
+- Previous page
+- Introduce Message
+- Display Messages
+
 
 ## Poveste 
 În timpul celui de-al Doilea Război Mondial, în Franța ocupată de trupele germane, francezi de toate vârstele s-au unit pentru a slăbi forțele inamicului, atât prin sabotaj, cât și prin operațiuni militare.
