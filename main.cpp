@@ -2,11 +2,6 @@
 
 using namespace std;
 
-/// la upcasting trebuie explicita conversia?
-/// downcasting ???
-/// destructor
-/// functii virtuale
-
 class Oameni {
 public:
     Oameni();
